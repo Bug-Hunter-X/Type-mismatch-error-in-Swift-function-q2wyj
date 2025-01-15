@@ -1,0 +1,1 @@
+This example demonstrates a common type mismatch error in Swift.  The `calculateArea` function expects `Double` values for both `width` and `height`, but the call to the function attempts to pass a String ("20") as the `height` argument.  The solution shows how to correctly convert the String to a Double before passing it to the function.
